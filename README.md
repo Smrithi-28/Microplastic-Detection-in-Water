@@ -31,7 +31,6 @@ The project uses a custom dataset of **566 manually collected images**, annotate
 3. **Dataset Preparation:** Organized annotated images and labels in YOLO-compatible format.
 4. **Model Training:** Trained a YOLO object detection model using the custom dataset.
 5. **Model Evaluation:** Evaluated model performance using precision, recall, and mAP metrics.
-6. **Deployment:** Developed a Streamlit dashboard to perform image-based detection and visualize predictions using the trained model.
 
 ## Results and Visualizations
 
