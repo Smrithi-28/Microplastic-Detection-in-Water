@@ -77,53 +77,6 @@ The best-performing model checkpoint, **`best.pt`**, is used for inference in th
 
 The model generates bounding boxes around detected particles along with their predicted class labels and confidence scores.
 
-## Running the Application
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Smrithi-28/Microplastic-Project.git
-cd Microplastic-Project
-```
-
-### 2. Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Streamlit Application
-
-```bash
-streamlit run app.py
-```
-
-### 5. Load the Trained Model
-
-```python
-from ultralytics import YOLO
-
-model = YOLO("best.pt")
-```
-
-## Future Improvements
-
-- Improve detection accuracy on real-world water sample images.
-- Expand and balance the custom dataset.
-- Improve model generalization under different lighting conditions.
-- Explore deployment on edge devices for real-time microplastic monitoring.
 
 ## Disclaimer
 
